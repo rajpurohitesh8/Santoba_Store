@@ -956,6 +956,33 @@
     .newsletter-form input { border-right: 1px solid var(--border); border-bottom: none; }
     .story-stats { flex-wrap: wrap; gap: 24px; }
   }
+  @media (max-width: 480px) {
+    nav {
+      padding: 16px;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .hero-title {
+      font-size: 2.5rem;
+    }
+    .hero-desc {
+      font-size: 0.7rem;
+    }
+    .btn-primary, .btn-secondary {
+      padding: 12px 24px;
+      font-size: 0.6rem;
+    }
+    .collection-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+    .story {
+      grid-template-columns: 1fr;
+      gap: 50px;
+    }
+  }
 </style>
 </head>
 <body>
